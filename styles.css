@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&family=Unbounded:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+
+body{
+    background: linear-gradient(176deg,rgb(18,24,27) 50%,rgb(32,39,55) 100%);
+    min-height: 100vh;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar{
+    min-height: 10vh;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar img{
+  width: 40px;
+}
+
+#navbar img:hover{
+  width: 42px;
+}
+
+
+.navbtn{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.navbtn a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Sofia Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.3vw;
+}
+
+.navbtn a:hover{
+    border-bottom: 1px solid #ffe600;
+    padding-bottom: 3px;
+    color: #ffe600;
+    transform: translate(0px,0px)
+}
+
+
+
+
+
+#main{
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    min-height: 90vh;
+  }
+  
+  #main img{
+    width: 30vw;
+    filter: drop-shadow(7px 7px 7px black);
+  }
+  
+  
+  #main div{
+    width: 50%;
+  }
+  
+  #main div:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #main p:nth-child(1){
+    color: #f7f7f7;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 2vw;
+  }
+  
+  #main p:nth-child(2){
+    color: white;
+    font-family:'unbounded',cursive;
+    font-size: 3vw;
+  }
+
+
+
+
+
+
+
+
+#blogs{
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: space-between;
+    min-height: 90vh;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ef4444;
+    font-family:'unbounded',cursive;
+    font-size: 60px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.list{
+    height: 100vh;
+    display: flex;
+    color:white;
+    justify-content: space-evenly;
+}
+
+.article{
+    border-radius: 10px;
+    padding: 20px;
+    border: 0;  
+    width: 25%;
+    font-family: 'Signika Negative', sans-serif;
+    height: fit-content;
+    padding: 10px;
+    background-color: #2b3941;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px,
+   rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+   rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.heading{
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: #38c0fe;;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px;
+    text-align: right;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.article:hover{
+    border: 1px solid rgb(235, 42, 42);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+    rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }   
+  
+  .container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .container button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #2b3941;
+    transition: 0.3s;
+    cursor: pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .icon {
+    width: 26px;
+    height: 26px;
+    fill: #fff;
+  }
+  
+  .container a:nth-child(1) button:hover {
+    background-color: #1c2128;
+  }
+  
+  .container a:nth-child(2) button:hover {
+    background-color: #0077b5;
+  }
+  
+  .container a:nth-child(3) button:hover {
+    background-color: crimson;
+  }
+  
+  .container a:nth-child(4) button:hover {
+    background-color: #38c0fe;
+  }
+  
+  
+  
+  .titly {
+    color: gray;
+    font-weight: 300;
+    font-size: 15px;
+    font-family:'Unbounded', cursive;
+    position: absolute;
+    top: -35px;
+    left: 0;
+  }
+  
+  
